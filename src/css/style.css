@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'cosmo';
+  src: url(../font/UpheavalPro.ttf),
+  url(../font/UpheavalPro.otf);
+}
+/*fundo e fonte*/
+body {
+  font-family: cosmo, sans-serif;
+  background-image: url(../imagens/background.gif);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+  backg
+}
+
+
+.cartao-cavaleiro {
+display: none;
+}
+
+.cartao-cavaleiro.aberto {
+  display: block;
+}
