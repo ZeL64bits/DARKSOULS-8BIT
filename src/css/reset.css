@@ -4,3 +4,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'cosmo';
+  src: url(../font/UpheavalPro.ttf),
+  url(../font/UpheavalPro.otf);
+}
+
+body {
+  font-family: cosmo, sans-serif;}

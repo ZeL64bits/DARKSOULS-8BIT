@@ -1,11 +1,5 @@
-@font-face {
-  font-family: 'cosmo';
-  src: url(../font/UpheavalPro.ttf),
-  url(../font/UpheavalPro.otf);
-}
-/*fundo e fonte*/
 body {
-  font-family: cosmo, sans-serif;
+
   background-image: url(../imagens/background.gif);
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -21,19 +15,27 @@ body::before {
   z-index: -1;
   width: 100%;
   height: 100%;
-  backdrop-filter: blur(80px);
+  backdrop-filter: blur(4px);
 }
 
-main{
+main {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
 
+.Four-Kinghts {
+  display: flex;
+  gap: 30px;
+  padding: 30px 0;
+}
+
 .cartao-cavaleiro {
-display: none;
-max-width: 480px;
+  display: none;
+  max-width: 360px;
+  border: 2px solid black;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px
 }
 
 .cartao-cavaleiro.aberto {
@@ -63,9 +65,9 @@ max-width: 480px;
 }
 
 .cartao-cavaleiro .detalhes {
-color: #ffffff;
-display: flex;
-align-items: center;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
 }
 
 .cartao-cavaleiro .cartao-informacao {
@@ -97,4 +99,68 @@ align-items: center;
   border-top-left-radius: 24px;
   border-bottom-left-radius: 24px;
   border-bottom-right-radius: 24px;
+}
+
+#cartao-ornstein {
+  background-color: #f5b02f;
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+#cartao-gough {
+  background-color: #4f565a;
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+#cartao-ciaran {
+  background-color: #108999;
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+.listagem {
+
+  max-width: 200px;
+}
+
+.listagem .knight img {
+  width: 25%;
+}
+
+#artorias {
+  width: 30%;
+}
+
+.listagem .knight {
+  border: 2px solid black;
+  background-color: #6b727a;
+  color: #ffffff;
+  min-height: 70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5px;
+  margin-bottom: 10px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+
+  transition: 0.15 ease-in-out;
+
+}
+
+.listagem .knight:hover {
+ transform: scale(1.05);
+}
+
+.listagem .knight span {
+  padding-right: 20px;
+}
+
+.listagem .knight:hover {
+  background-color: #192d58;
 }
