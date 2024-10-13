@@ -1,6 +1,5 @@
 body {
-
-  background-image: url(../imagens/background.gif);
+  background-image: url(../imagens/background.jpeg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: relative;
@@ -33,7 +32,7 @@ main {
 
 .cartao-cavaleiro {
   display: none;
-  max-width: 360px;
+  max-width: 300px;
   border: 2px solid black;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px
 }
@@ -154,7 +153,7 @@ main {
 }
 
 .listagem .knight:hover {
- transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .listagem .knight span {
