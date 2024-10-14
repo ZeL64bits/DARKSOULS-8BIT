@@ -4,16 +4,15 @@
     align-items: center;
     padding: 0px 0;
   }
-}
 
-.links {
-  height: auto;
-  margin: auto 330px;
 
-  font-size: 24px;
-  
-}
+  .links {
+    height: auto;
+    margin: auto 330px;
+    font-size: 24px;
+  }
 
-.newgame {
-padding: 50px 10px ;
+  .newgame {
+    padding: 50px 10px;
+  }
 }
