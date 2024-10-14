@@ -17,6 +17,39 @@ body::before {
   backdrop-filter: blur(4px);
 }
 
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav-container a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 30px;
+  transition: color 0.3s ease;
+}
+
+.nav-container a:hover {
+  color: #cccccc;
+}
+
+.logods {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logods img {
+  width: 75px;
+  margin-bottom: 5px;
+}
+
+/*tirar dps*/
+
 main {
   display: flex;
   justify-content: center;
@@ -130,9 +163,7 @@ main {
   width: 25%;
 }
 
-#artorias {
-  width: 30%;
-}
+
 
 .listagem .knight {
   border: 2px solid black;
