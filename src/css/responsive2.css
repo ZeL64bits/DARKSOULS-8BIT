@@ -2,17 +2,18 @@
   .container {
     flex-direction: column;
     align-items: center;
-    padding: 0px 0;
-  }
-
-
-  .links {
-    height: auto;
-    margin: auto 330px;
-    font-size: 24px;
+   
   }
 
   .newgame {
-    padding: 50px 10px;
+    padding: 50px;
+  }
+
+  .settings {
+    padding: 50px;
+  }
+
+  .loadgame {
+    padding: 50px;
   }
 }
