@@ -1,23 +1,19 @@
-@media(max-width: 750px) {
+@media (max-width: 750px) {
   .container {
     flex-direction: column;
     align-items: center;
-    padding: 30px 0;
+    padding: 0px 0;
   }
 }
 
 .links {
-  padding: 60px 30px 30px 50px;
-  margin-top: -50px;
-  font-size: 16px;
+  height: auto;
+  margin: auto 330px;
 
-  width: 55%;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    margin-bottom: 0;
-    border-radius: 8px;
+  font-size: 24px;
+  
+}
 
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
+.newgame {
+padding: 50px 10px ;
 }
